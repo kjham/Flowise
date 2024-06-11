@@ -56,7 +56,7 @@ export default function componentStyleOverrides(theme) {
             },
             styleOverrides: {
                 root: {
-                    height: '56px',
+                    /*height: '56px',*/
                     borderColor: '#eee',
                     backgroundImage: 'none'
                 },
