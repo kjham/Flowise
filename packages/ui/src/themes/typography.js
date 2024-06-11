@@ -89,12 +89,12 @@ export default function themeTypography(theme) {
         mainContent: {
             backgroundColor: theme.background,
             width: '100%',
-            minHeight: 'calc(100vh - 75px)',
+            minHeight: 'calc(100vh - 57px)',
             flexGrow: 1,
             padding: '20px',
-            marginTop: '75px',
+            marginTop: '56px',
             marginRight: '20px',
-            borderRadius: `${theme?.customization?.borderRadius}px`
+            borderRadius: 'none'
         },
         menuCaption: {
             fontSize: '0.875rem',

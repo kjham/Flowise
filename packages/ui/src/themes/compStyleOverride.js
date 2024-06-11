@@ -56,6 +56,8 @@ export default function componentStyleOverrides(theme) {
             },
             styleOverrides: {
                 root: {
+                    height: '56px',
+                    borderColor: '#eee',
                     backgroundImage: 'none'
                 },
                 rounded: {
@@ -94,6 +96,8 @@ export default function componentStyleOverrides(theme) {
                     color: theme.darkTextPrimary,
                     paddingTop: '10px',
                     paddingBottom: '10px',
+                    height: '38px',
+                    borderRadius: '8px',
                     '&.Mui-selected': {
                         color: theme.menuSelected,
                         backgroundColor: theme.menuSelectedBack,
@@ -213,6 +217,7 @@ export default function componentStyleOverrides(theme) {
         MuiChip: {
             styleOverrides: {
                 root: {
+                    height: '24px',
                     '&.MuiChip-deletable .MuiChip-deleteIcon': {
                         color: 'inherit'
                     }
