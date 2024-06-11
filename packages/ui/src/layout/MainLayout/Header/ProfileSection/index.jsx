@@ -77,7 +77,7 @@ const ProfileSection = ({ username, handleLogout }) => {
                         color: theme.palette.secondary.dark,
                         '&:hover': {
                             background: theme.palette.secondary.dark,
-                            color: '#9C9EAD'
+                            color: theme.palette.primary.light
                         }
                     }}
                     onClick={handleToggle}

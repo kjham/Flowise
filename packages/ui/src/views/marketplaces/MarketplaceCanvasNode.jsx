@@ -23,7 +23,7 @@ const CardWrapper = styled(MainCard)(({ theme }) => ({
     width: '300px',
     height: 'auto',
     padding: '10px',
-    boxShadow: '0 2px 14px 0 rgb(32 40 45 / 8%)',
+    boxShadow: 'none',
     '&:hover': {
         borderColor: theme.palette.primary.main
     }
