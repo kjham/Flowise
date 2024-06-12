@@ -40,7 +40,7 @@ const Sidebar = ({ drawerOpen, drawerToggle, window }) => {
                         paddingRight: '16px'
                     }}
                 >
-                    <MenuList />
+                    <MenuList sx={{ height: '38px' }} />
                 </PerfectScrollbar>
             </BrowserView>
             <MobileView>

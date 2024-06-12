@@ -3,7 +3,8 @@ const config = {
     basename: '',
     defaultPath: '/chatflows',
     fontFamily: `'Roboto', sans-serif`,
-    borderRadius: 12
+    borderRadius: 12,
+    height: '38px'
 }
 
 export default config

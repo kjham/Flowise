@@ -79,7 +79,8 @@ const Settings = ({ chatflow, isSettingsOpen, anchorEl, isAgentCanvas, onSetting
                     mb: 0.5,
                     alignItems: 'flex-start',
                     py: 1.25,
-                    pl: `24px`
+                    pl: `24px`,
+                    height: '38px'
                 }}
                 onClick={() => {
                     if (menu.id === 'loadChatflow' && inputFile) {

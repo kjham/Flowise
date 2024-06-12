@@ -98,7 +98,7 @@ export default function componentStyleOverrides(theme) {
                     paddingBottom: '10px',
                     borderRadius: '8px',
                     '&.Mui-selected': {
-                        height: '38px',
+                        /*height: '38px',*/
                         color: theme.menuSelected,
                         backgroundColor: theme.menuSelectedBack,
                         '&:hover': {
