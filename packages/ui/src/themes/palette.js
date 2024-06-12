@@ -92,8 +92,8 @@ export default function themePalette(theme) {
         canvasHeader: {
             deployLight: theme.colors?.primaryLight,
             deployDark: theme.colors?.primaryDark,
-            saveLight: theme.colors?.secondaryLight,
-            saveDark: theme.colors?.secondaryDark,
+            saveLight: theme.customization.isDarkMode ? theme.colors?.darkSecondaryLight : theme.colors?.primaryLight,
+            saveDark: theme.customization.isDarkMode ? theme.colors?.darkSecondaryDark : theme.colors?.secondaryDark,
             settingsLight: theme.colors?.grey300,
             settingsDark: theme.colors?.grey700
         },
